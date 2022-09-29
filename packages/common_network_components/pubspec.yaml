@@ -1,0 +1,20 @@
+name: common_network_components
+description: Shared network components
+version: 0.0.7
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  dio: ^4.0.4
+  meta: ^1.7.0
+  common_models:
+    git:
+      url: https://github.com/kume1a/flutter_common.git
+      path: packages/common_models
+
+dev_dependencies:
+  test: ^1.16.0
+
+  lint: ^1.7.2
